@@ -181,6 +181,7 @@ GameObject:
   - component: {fileID: 455418409}
   - component: {fileID: 455418410}
   - component: {fileID: 455418411}
+  - component: {fileID: 455418412}
   m_Layer: 0
   m_Name: Rambo
   m_TagString: Untagged
@@ -329,6 +330,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbe8ac4cb806a24488e56a202c5900bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MovSpeed: 5
+  JumpForce: 300
+  bulletObj: {fileID: 4259655413470122875, guid: 7403837c8a752554cbf07206cb6fb1f5, type: 3}
+--- !u!95 &455418412
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455418406}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 86232e075d76a384588ffbc3b3345657, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
