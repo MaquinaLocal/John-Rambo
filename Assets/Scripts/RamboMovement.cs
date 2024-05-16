@@ -72,7 +72,7 @@ public class RamboMovement : MonoBehaviour
         if (transform.localScale.x == 1.0f) direction = Vector2.right;
         else direction = Vector2.left;
 
-        GameObject bullet = Instantiate(bulletObj, transform.position + direction * 0.5f, Quaternion.identity);
+        GameObject bullet = Instantiate(bulletObj, transform.position + direction * 1.0f, Quaternion.identity);
         bullet.GetComponent<Bullet>().SetDirection(direction);
 
     }

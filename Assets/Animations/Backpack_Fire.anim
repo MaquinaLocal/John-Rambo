@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BulletAnim
+  m_Name: Backpack_Fire
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,19 +21,21 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 456988523, guid: bff0423bddd81434f9b29c335c7a5588, type: 3}
+      value: {fileID: 1735456070, guid: bef99e21837bde44196220c6154f2e24, type: 3}
     - time: 0.083333336
-      value: {fileID: -1849424502, guid: bff0423bddd81434f9b29c335c7a5588, type: 3}
+      value: {fileID: -2012553544, guid: bef99e21837bde44196220c6154f2e24, type: 3}
     - time: 0.16666667
-      value: {fileID: -1332686706, guid: bff0423bddd81434f9b29c335c7a5588, type: 3}
+      value: {fileID: -1440027512, guid: bef99e21837bde44196220c6154f2e24, type: 3}
     - time: 0.25
-      value: {fileID: -1129880845, guid: bff0423bddd81434f9b29c335c7a5588, type: 3}
+      value: {fileID: 453501986, guid: bef99e21837bde44196220c6154f2e24, type: 3}
     - time: 0.33333334
-      value: {fileID: -2024548229, guid: bff0423bddd81434f9b29c335c7a5588, type: 3}
+      value: {fileID: -1768607059, guid: bef99e21837bde44196220c6154f2e24, type: 3}
     - time: 0.41666666
-      value: {fileID: -865823280, guid: bff0423bddd81434f9b29c335c7a5588, type: 3}
+      value: {fileID: 223635952, guid: bef99e21837bde44196220c6154f2e24, type: 3}
     - time: 0.5
-      value: {fileID: 1996255735, guid: bff0423bddd81434f9b29c335c7a5588, type: 3}
+      value: {fileID: 210019866, guid: bef99e21837bde44196220c6154f2e24, type: 3}
+    - time: 0.5833333
+      value: {fileID: 1115788256, guid: bef99e21837bde44196220c6154f2e24, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -56,24 +58,25 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 456988523, guid: bff0423bddd81434f9b29c335c7a5588, type: 3}
-    - {fileID: -1849424502, guid: bff0423bddd81434f9b29c335c7a5588, type: 3}
-    - {fileID: -1332686706, guid: bff0423bddd81434f9b29c335c7a5588, type: 3}
-    - {fileID: -1129880845, guid: bff0423bddd81434f9b29c335c7a5588, type: 3}
-    - {fileID: -2024548229, guid: bff0423bddd81434f9b29c335c7a5588, type: 3}
-    - {fileID: -865823280, guid: bff0423bddd81434f9b29c335c7a5588, type: 3}
-    - {fileID: 1996255735, guid: bff0423bddd81434f9b29c335c7a5588, type: 3}
+    - {fileID: 1735456070, guid: bef99e21837bde44196220c6154f2e24, type: 3}
+    - {fileID: -2012553544, guid: bef99e21837bde44196220c6154f2e24, type: 3}
+    - {fileID: -1440027512, guid: bef99e21837bde44196220c6154f2e24, type: 3}
+    - {fileID: 453501986, guid: bef99e21837bde44196220c6154f2e24, type: 3}
+    - {fileID: -1768607059, guid: bef99e21837bde44196220c6154f2e24, type: 3}
+    - {fileID: 223635952, guid: bef99e21837bde44196220c6154f2e24, type: 3}
+    - {fileID: 210019866, guid: bef99e21837bde44196220c6154f2e24, type: 3}
+    - {fileID: 1115788256, guid: bef99e21837bde44196220c6154f2e24, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.5833333
+    m_StopTime: 0.6666666
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
     m_HasAdditiveReferencePose: 0
-    m_LoopTime: 0
+    m_LoopTime: 1
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0
     m_LoopBlendPositionY: 0
@@ -87,11 +90,4 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events:
-  - time: 0.5
-    functionName: DestroyBullet
-    data: 
-    objectReferenceParameter: {fileID: 11500000, guid: 372265964d5d57643999136505dc8023, type: 3}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
+  m_Events: []

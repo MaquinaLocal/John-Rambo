@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 736a5cc67c70fd34bb013715effc96b2
+guid: 97ba4e4c90cd4204c86ff8bbccbc3e91
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 19
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -94,19 +94,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Server
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -123,12 +110,138 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tiles_spritesheet_0
+      name: 8bit-armor-pack_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 5
         y: 112
-        width: 8
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e5734348fc294429880b411e198389
+      internalID: 1239078893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 112
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bec11f7000cf6d488328fdb0e8dfd9c
+      internalID: -1443926708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 112
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0265f098ca6518419cd4fa34a9fbb83
+      internalID: -2001387531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_3
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 112
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86554b7d47402f4b8a2f4d3b583f6a4
+      internalID: -150973953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_4
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 112
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2259d673298e707439f797e42d95d46f
+      internalID: 1197134221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_5
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 112
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a095e0e30ad57754b8ffff96d08b2de3
+      internalID: 1629311472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_6
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 120
+        width: 9
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -137,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 573b78c22e6c27c46a48ae32130ff76f
-      internalID: -1061283156
+      spriteID: eab9412d9ef37824ca023c85fdfab425
+      internalID: 1500817356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_1
+      name: 8bit-armor-pack_7
       rect:
         serializedVersion: 2
-        x: 16
-        y: 112
-        width: 8
-        height: 8
+        x: 144
+        y: 122
+        width: 16
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +271,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fa619dd00957c44caa8ddde6b177d5d
-      internalID: 1461678705
+      spriteID: 6ad0f2028fad69448b7438f5bed61c52
+      internalID: 1002102789
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_2
+      name: 8bit-armor-pack_8
       rect:
         serializedVersion: 2
-        x: 32
-        y: 112
-        width: 8
-        height: 8
+        x: 161
+        y: 122
+        width: 12
+        height: 4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +292,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b684ce712355c36459beb061d5159107
-      internalID: -1809009567
+      spriteID: 9f039ba1fa7fd9348be523f22eb44905
+      internalID: 791387792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_3
+      name: 8bit-armor-pack_9
       rect:
         serializedVersion: 2
-        x: 48
-        y: 112
-        width: 8
-        height: 8
+        x: 178
+        y: 114
+        width: 4
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +313,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cbf108c35220e94b9ac78cbfb400047
-      internalID: 777078926
+      spriteID: 56cb5f68b4d6bfc4ea2ad0f86aaf94ad
+      internalID: -1615671174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_4
+      name: 8bit-armor-pack_10
       rect:
         serializedVersion: 2
-        x: 64
-        y: 112
-        width: 8
-        height: 8
+        x: 182
+        y: 120
+        width: 4
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +334,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a0cb54bf391e80408b525d1a11f9bca
-      internalID: -2123939603
+      spriteID: f8bd629fe8ef18747ae494341c83aa7f
+      internalID: 1996925623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_5
+      name: 8bit-armor-pack_11
       rect:
         serializedVersion: 2
-        x: 80
-        y: 112
-        width: 8
-        height: 8
+        x: 183
+        y: 114
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +355,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7eaf1d39912fdb8448e266c80b36434e
-      internalID: -1900323946
+      spriteID: 86c67f6fa73f07c4f97dde9b242e53b1
+      internalID: -8542509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_6
+      name: 8bit-armor-pack_12
       rect:
         serializedVersion: 2
-        x: 96
-        y: 112
-        width: 8
-        height: 8
+        x: 191
+        y: 122
+        width: 5
+        height: 4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +376,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2224f1ae28169f34e8ce6dd0e67358ef
-      internalID: -227532496
+      spriteID: 5e51b469d14256d4a94bbf3a6725c8d9
+      internalID: 874430440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_7
+      name: 8bit-armor-pack_13
       rect:
         serializedVersion: 2
-        x: 112
+        x: 37
         y: 112
         width: 8
-        height: 8
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,20 +397,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2f3504d198062647959156a1a103a8c
-      internalID: 443371484
+      spriteID: 6fd5884adaa989f4eaad6fd5e9dd349a
+      internalID: 1631399899
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_8
+      name: 8bit-armor-pack_14
       rect:
         serializedVersion: 2
-        x: 128
+        x: 69
         y: 112
-        width: 8
-        height: 8
+        width: 7
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +418,104 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b42e6a4fe64ee640beb24861687527d
-      internalID: 1609469675
+      spriteID: 4a70543a41d497b49bf0376ac8625796
+      internalID: -88118103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_9
+      name: 8bit-armor-pack_15
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 111
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3d74f524f74914f9b42ae1db081a92
+      internalID: 366633618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_16
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 117
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8bd5259a2db99c4bb78f906be0bf709
+      internalID: 693205255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_17
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 114
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c96b612dd95c7448816f2f7916081af
+      internalID: -846920617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_18
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 114
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bacde59675e889145a6ac09d23c2c19a
+      internalID: -127986645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_19
       rect:
         serializedVersion: 2
         x: 144
         y: 112
-        width: 8
-        height: 8
+        width: 16
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,20 +523,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f326c6b69587a67478e4e25b5ebd4d55
-      internalID: -1862806460
+      spriteID: e898ebad57dd83d4887c18dcf6785597
+      internalID: 191014732
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_10
+      name: 8bit-armor-pack_20
       rect:
         serializedVersion: 2
-        x: 160
+        x: 161
         y: 112
         width: 8
-        height: 8
+        height: 4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,293 +544,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d7841552baba1345b9e7583b92dc136
-      internalID: -747407400
+      spriteID: 6695a8c0540a82842b0d9bb35a5847a6
+      internalID: 1093073308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_11
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 112
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b7281a55ebb14a74c920848df2dd7ac3
-      internalID: 1894719858
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_spritesheet_13
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 96
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b6ee628b566bb3a41bc53efc74bce5fc
-      internalID: 1586632656
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_spritesheet_14
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 96
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b1f67947ae557244ab06a0d5e3b6e584
-      internalID: 2007763377
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_spritesheet_15
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 96
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce717b7fe8dda3e4784164663883f670
-      internalID: -424877846
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_spritesheet_16
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 96
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7a09354c811406345b25d8a7b490211f
-      internalID: -349086655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_spritesheet_17
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 96
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 056935cb7a6184f4882be5e16b1b068a
-      internalID: 153721169
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_spritesheet_18
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 96
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9acd8afb332ad4f4b89b820e8c8ab261
-      internalID: 1528699753
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_spritesheet_19
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 96
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d50534140385cd846abe9f8bb8e4e73f
-      internalID: 373635132
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_spritesheet_20
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 96
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 20d833812d96cee40b000d8a9c8eafaa
-      internalID: 2141281905
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_spritesheet_21
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 96
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df06c706849ff0c46887c9231d37b61a
-      internalID: -474258098
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_spritesheet_22
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 96
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c4be89f3714477f4fae36ae5bbbef5e2
-      internalID: 2061910875
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_spritesheet_23
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 96
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27fae8d6f85c75c46b08b23b1e287bdb
-      internalID: 1030050346
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_spritesheet_24
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 96
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e21eed29ad98b15459a2640c2cb86593
-      internalID: -1583855689
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_spritesheet_25
+      name: 8bit-armor-pack_21
       rect:
         serializedVersion: 2
         x: 0
         y: 80
-        width: 8
-        height: 8
+        width: 16
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -641,20 +565,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ed04136e65000943b25db20817c8c5b
-      internalID: -251869372
+      spriteID: fa5a21aa539c2df40aabc69e210557fc
+      internalID: 660392436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_26
+      name: 8bit-armor-pack_22
       rect:
         serializedVersion: 2
-        x: 16
-        y: 80
-        width: 8
-        height: 8
+        x: 0
+        y: 101
+        width: 16
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -662,20 +586,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d8edc4c3b6ff0a4081c6df13606ec66
-      internalID: 1829527163
+      spriteID: a740a56f4cc45ae4ca53292f8dd84b34
+      internalID: 1836286322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_27
+      name: 8bit-armor-pack_23
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 80
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557c764949a64384b97eb3f4dbb79c59
+      internalID: 2117406063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_24
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 100
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fffe3ed2b76938e42a391cfb86f744dc
+      internalID: 438319914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_25
       rect:
         serializedVersion: 2
         x: 32
         y: 80
-        width: 8
-        height: 8
+        width: 23
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -683,20 +649,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fbb0ca8eec18bf4eb385845c2ed8765
-      internalID: -234251853
+      spriteID: eadf0a46ed271b74f8cd5fd9e6d829da
+      internalID: -2082123947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_28
+      name: 8bit-armor-pack_26
       rect:
         serializedVersion: 2
-        x: 48
-        y: 80
-        width: 8
-        height: 8
+        x: 32
+        y: 100
+        width: 23
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -704,20 +670,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: feb54a4114ecb9d43926ddcdadf38aaa
-      internalID: -1015767153
+      spriteID: 96d38cd1ed2870541a62f687e48fb1b8
+      internalID: -1625594472
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_29
+      name: 8bit-armor-pack_27
       rect:
         serializedVersion: 2
         x: 64
-        y: 80
-        width: 8
-        height: 8
+        y: 84
+        width: 22
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -725,20 +691,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e6b5065b29a744438658cd8c943e1ba
-      internalID: -1309052363
+      spriteID: 1ed6c5e5141f80d498458a4cdddff203
+      internalID: -1918264852
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_30
+      name: 8bit-armor-pack_28
       rect:
         serializedVersion: 2
-        x: 80
-        y: 80
-        width: 8
-        height: 8
+        x: 64
+        y: 101
+        width: 30
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -746,20 +712,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6c32259d6a975d4993fd11679fb0966
-      internalID: 1763271779
+      spriteID: 2d19e8887415b5042b2609c6122d6f4a
+      internalID: 896957790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_31
+      name: 8bit-armor-pack_29
       rect:
         serializedVersion: 2
         x: 96
-        y: 80
-        width: 8
-        height: 8
+        y: 101
+        width: 32
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -767,20 +733,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ead1dc80124078d4ea06fd1281b19436
-      internalID: -1621409799
+      spriteID: 17cc0d87b5ed34d41989818f855ed156
+      internalID: -160672149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_32
+      name: 8bit-armor-pack_30
       rect:
         serializedVersion: 2
-        x: 112
-        y: 80
-        width: 8
-        height: 8
+        x: 96
+        y: 84
+        width: 25
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -788,19 +754,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab20579321d09224e9d2cc2cda184f19
-      internalID: 1368755403
+      spriteID: 292c8b98175908c4590ec1a967002b95
+      internalID: -1588840268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_33
+      name: 8bit-armor-pack_31
       rect:
         serializedVersion: 2
-        x: 128
-        y: 80
-        width: 8
+        x: 131
+        y: 85
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8efe7673f52de4db3926b9b9ae8c9e
+      internalID: 2117621414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_32
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 102
+        width: 6
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -809,20 +796,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2ff0fe2db3ad50409b5bcbc186c6b62
-      internalID: 616657331
+      spriteID: d70a428720ba4074e8abd4c70a946c13
+      internalID: -1880476419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_34
+      name: 8bit-armor-pack_33
       rect:
         serializedVersion: 2
         x: 144
-        y: 80
-        width: 8
-        height: 8
+        y: 96
+        width: 4
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -830,20 +817,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b6563a183991be47905fde16d881707
-      internalID: -2058401152
+      spriteID: 51234c11b1ed35c46a42d8ea52a0786e
+      internalID: 1609174641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_35
+      name: 8bit-armor-pack_34
       rect:
         serializedVersion: 2
-        x: 160
-        y: 80
-        width: 8
-        height: 8
+        x: 144
+        y: 102
+        width: 10
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -851,20 +838,104 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bc61b89231332f479a744b4c2c95492
-      internalID: -553530414
+      spriteID: 155bbf5a79ab40149a46b150e8ed88ed
+      internalID: 822711073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_36
+      name: 8bit-armor-pack_35
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 84
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3c232ef58a5b34480ee32a13c70e55
+      internalID: 1535714985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_36
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 96
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2383a9c5cb7545b40964b70253a88538
+      internalID: -1022170013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_37
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 85
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3810e87190960c49a3ffd298122ad9b
+      internalID: -1022182834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_38
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 96
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf776c8778c57fe47b57efb24f4b5b00
+      internalID: -1317028756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_39
       rect:
         serializedVersion: 2
         x: 176
-        y: 80
-        width: 8
-        height: 8
+        y: 96
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -872,20 +943,125 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fb66bf829deb9d408a2cd817623e687
-      internalID: 2046228192
+      spriteID: 34ca5ee5703fed147bbc990b4e0c386d
+      internalID: 1555377551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_37
+      name: 8bit-armor-pack_40
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 91
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4693846dadad16a44b19479f4a376eb5
+      internalID: -576479362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_41
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 107
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7d3d46437616c4ca6877caaba18633
+      internalID: 1827011952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_42
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 96
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660fb3a760b67174ea8ac19739983309
+      internalID: -97040899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_43
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 102
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7413d86668410142ac94cb501da43c8
+      internalID: -1431242361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 90
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711ddf23091083b41a7b6b1d67445d14
+      internalID: -873287888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_45
       rect:
         serializedVersion: 2
         x: 0
         y: 64
-        width: 8
-        height: 8
+        width: 27
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -893,41 +1069,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1af0fbe8093a3e6439bd690007ee0915
-      internalID: 1352261618
+      spriteID: 397242ae93282a64d8cbebd4d073788b
+      internalID: -41760974
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_38
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 64
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b698293be5076b44390aeaaceed0b67f
-      internalID: -502974216
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_spritesheet_39
+      name: 8bit-armor-pack_46
       rect:
         serializedVersion: 2
         x: 32
         y: 64
-        width: 8
-        height: 8
+        width: 27
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -935,41 +1090,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4a2765a0d04884429ac2bfcde0de868
-      internalID: 2097831585
+      spriteID: e64596cca9735d049b30bc9ba82d2a1d
+      internalID: 2041606123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_40
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 64
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: adb207048f92bea4cbab1e4b10566eb1
-      internalID: -1305748281
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_spritesheet_41
+      name: 8bit-armor-pack_47
       rect:
         serializedVersion: 2
         x: 64
         y: 64
-        width: 8
-        height: 8
+        width: 39
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -977,62 +1111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 299b6bd2db84e1a4e95e40f4efbdd4be
-      internalID: -2145732849
+      spriteID: 0c6212542a316814e866f73454c31402
+      internalID: 1286324385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_42
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 64
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9fcdf678bedc7644c84a93df9861e854
-      internalID: -523211973
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_spritesheet_43
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 64
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a75322e88a01924390d2afd86734852
-      internalID: -1652027407
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_spritesheet_44
+      name: 8bit-armor-pack_48
       rect:
         serializedVersion: 2
         x: 112
         y: 64
-        width: 8
-        height: 8
+        width: 36
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1040,62 +1132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea1b74a8fd542eb4fb0bd97be43134e5
-      internalID: -423919220
+      spriteID: 75579992807b47542b1955bd3608542f
+      internalID: 253072850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_45
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 64
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3a1286d0741bfe4e91868a647e85962
-      internalID: 1951254715
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_spritesheet_46
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 64
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 591adbd801efbc447b0c28f99e93cb04
-      internalID: -1136715493
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_spritesheet_47
+      name: 8bit-armor-pack_49
       rect:
         serializedVersion: 2
         x: 160
         y: 64
-        width: 8
-        height: 8
+        width: 48
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1103,41 +1153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37e8fdfa26c40824197f652d8c9ab464
-      internalID: -201179928
+      spriteID: e1de43f7367b1974682d0aa08e3eb286
+      internalID: -642147309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_48
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 64
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e9380d01cabeb04ab0ec043f26bc60a
-      internalID: -1819700469
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_spritesheet_49
+      name: 8bit-armor-pack_50
       rect:
         serializedVersion: 2
         x: 0
         y: 48
-        width: 8
-        height: 8
+        width: 35
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1145,62 +1174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bde3e14fe0905294e9f16eb2f4ebf760
-      internalID: -536111960
+      spriteID: 4af8c5a52df9c334183c00befed6efb3
+      internalID: -1913932436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_50
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 48
-        width: 8
-        height: 8
-      alignment: 9
-      pivot: {x: 0.5, y: 0.42603302}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 254a1028b2d59484dab1a098b311887b
-      internalID: -1940357989
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_spritesheet_51
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 48
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eb85a813517cae440a02c6d828c34525
-      internalID: -1819640887
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_spritesheet_52
+      name: 8bit-armor-pack_51
       rect:
         serializedVersion: 2
         x: 48
         y: 48
-        width: 8
-        height: 8
+        width: 34
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1208,20 +1195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65d9c786860fbe04cb40f70ce44756d6
-      internalID: 1972394068
+      spriteID: 107183d862b349a468da98b6043ce820
+      internalID: 29853781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_53
+      name: 8bit-armor-pack_52
       rect:
         serializedVersion: 2
-        x: 64
-        y: 48
-        width: 8
-        height: 8
+        x: 83
+        y: 53
+        width: 21
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1229,62 +1216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5e77f5bd956c7b4f9f59a69f44b4583
-      internalID: -1262720114
+      spriteID: 53a71cca47d3b2a4886c24e8d99acf5f
+      internalID: -2090607640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_54
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 48
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c9020765881b77c40ac916c712ba34c8
-      internalID: 402503941
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_spritesheet_55
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 48
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 158c55f308f8a2c4693cdbc3570bdc30
-      internalID: 963372374
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_spritesheet_56
+      name: 8bit-armor-pack_53
       rect:
         serializedVersion: 2
         x: 112
-        y: 48
-        width: 8
-        height: 8
+        y: 32
+        width: 51
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1292,83 +1237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d6ccb74e9d8e674e922ee908da205f8
-      internalID: 494217559
+      spriteID: c9bd11cf3232a1442b592dcd2450f3ab
+      internalID: -1449361857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_spritesheet_57
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 48
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dcf095cefecb8154cbe6ffc6464c1d7f
-      internalID: -209915346
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_spritesheet_58
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 48
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 879d6729800356a4fa34f66cdb7591ad
-      internalID: -761615538
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_spritesheet_59
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 48
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b40adb839cb442944b1a1c7369fe5732
-      internalID: 615680932
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_spritesheet_60
+      name: 8bit-armor-pack_54
       rect:
         serializedVersion: 2
         x: 176
-        y: 48
-        width: 8
-        height: 8
+        y: 54
+        width: 30
+        height: 4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1376,8 +1258,365 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a374d7da2229ed4c808e0cd20a108a9
-      internalID: -694925926
+      spriteID: 89f8ea6b8a0363f42bd3a980fd75c034
+      internalID: -2033481435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81fd4bba2b96184ba94aa521e8ff64e
+      internalID: 1309501222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_56
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3735831badf4b4184e4e4b848d9343
+      internalID: -1490752258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_57
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2783b3d59197a46b9d61ad8c92666a
+      internalID: -1465658797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_58
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 38
+        width: 30
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00047f84eaf0e343853fa32d1f10994
+      internalID: -1543254657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4bc27c754bb53448e7dc81f1994bf3
+      internalID: 1932962692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_60
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a41ca5f2fbf7642967a9eada1f66c5
+      internalID: 161490656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea1a2781959203428080de647959bcd
+      internalID: -1736177015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_62
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d46973cca5d5a47ab8c9efd71c0612
+      internalID: 1163722766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_63
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5ab9fc3c6344743afb46462af92f5d
+      internalID: 1360575652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_64
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341f0496985f73e4cb605e922b5823d3
+      internalID: -864220272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d8f07a867106440a095c4b567b68dc
+      internalID: -274828561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_66
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ff7d31d528a384bb2cf99545b5eec1
+      internalID: -1197436044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_67
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6223ba0b67ce65841b560f879e5afb2e
+      internalID: 210177564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_68
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52dd1035d6f257043bf21ffdcabcfbda
+      internalID: -1952639153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_69
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 42
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a28c833fdb6634c825318e9ec66600
+      internalID: 1663620432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_70
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e16de3835d3274e95e46b78cc58928
+      internalID: 295766708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bit-armor-pack_71
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 2
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f567c519949e604f9ae5e8b3a0d6581
+      internalID: -569161481
       vertices: []
       indices: 
       edges: []
@@ -1393,71 +1632,78 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      tiles_spritesheet_0: -1061283156
-      tiles_spritesheet_1: 1461678705
-      tiles_spritesheet_10: -747407400
-      tiles_spritesheet_11: 1894719858
-      tiles_spritesheet_12: -1663722886
-      tiles_spritesheet_13: 1586632656
-      tiles_spritesheet_14: 2007763377
-      tiles_spritesheet_15: -424877846
-      tiles_spritesheet_16: -349086655
-      tiles_spritesheet_17: 153721169
-      tiles_spritesheet_18: 1528699753
-      tiles_spritesheet_19: 373635132
-      tiles_spritesheet_2: -1809009567
-      tiles_spritesheet_20: 2141281905
-      tiles_spritesheet_21: -474258098
-      tiles_spritesheet_22: 2061910875
-      tiles_spritesheet_23: 1030050346
-      tiles_spritesheet_24: -1583855689
-      tiles_spritesheet_25: -251869372
-      tiles_spritesheet_26: 1829527163
-      tiles_spritesheet_27: -234251853
-      tiles_spritesheet_28: -1015767153
-      tiles_spritesheet_29: -1309052363
-      tiles_spritesheet_3: 777078926
-      tiles_spritesheet_30: 1763271779
-      tiles_spritesheet_31: -1621409799
-      tiles_spritesheet_32: 1368755403
-      tiles_spritesheet_33: 616657331
-      tiles_spritesheet_34: -2058401152
-      tiles_spritesheet_35: -553530414
-      tiles_spritesheet_36: 2046228192
-      tiles_spritesheet_37: 1352261618
-      tiles_spritesheet_38: -502974216
-      tiles_spritesheet_39: 2097831585
-      tiles_spritesheet_4: -2123939603
-      tiles_spritesheet_40: -1305748281
-      tiles_spritesheet_41: -2145732849
-      tiles_spritesheet_42: -523211973
-      tiles_spritesheet_43: -1652027407
-      tiles_spritesheet_44: -423919220
-      tiles_spritesheet_45: 1951254715
-      tiles_spritesheet_46: -1136715493
-      tiles_spritesheet_47: -201179928
-      tiles_spritesheet_48: -1819700469
-      tiles_spritesheet_49: -536111960
-      tiles_spritesheet_5: -1900323946
-      tiles_spritesheet_50: -1940357989
-      tiles_spritesheet_51: -1819640887
-      tiles_spritesheet_52: 1972394068
-      tiles_spritesheet_53: -1262720114
-      tiles_spritesheet_54: 402503941
-      tiles_spritesheet_55: 963372374
-      tiles_spritesheet_56: 494217559
-      tiles_spritesheet_57: -209915346
-      tiles_spritesheet_58: -761615538
-      tiles_spritesheet_59: 615680932
-      tiles_spritesheet_6: -227532496
-      tiles_spritesheet_60: -694925926
-      tiles_spritesheet_61: -1274333800
-      tiles_spritesheet_62: 1291867595
-      tiles_spritesheet_63: 1152123516
-      tiles_spritesheet_64: -1428271143
-      tiles_spritesheet_7: 443371484
-      tiles_spritesheet_8: 1609469675
-      tiles_spritesheet_9: -1862806460
+      8bit-armor-pack_0: 1239078893
+      8bit-armor-pack_1: -1443926708
+      8bit-armor-pack_10: 1996925623
+      8bit-armor-pack_11: -8542509
+      8bit-armor-pack_12: 874430440
+      8bit-armor-pack_13: 1631399899
+      8bit-armor-pack_14: -88118103
+      8bit-armor-pack_15: 366633618
+      8bit-armor-pack_16: 693205255
+      8bit-armor-pack_17: -846920617
+      8bit-armor-pack_18: -127986645
+      8bit-armor-pack_19: 191014732
+      8bit-armor-pack_2: -2001387531
+      8bit-armor-pack_20: 1093073308
+      8bit-armor-pack_21: 660392436
+      8bit-armor-pack_22: 1836286322
+      8bit-armor-pack_23: 2117406063
+      8bit-armor-pack_24: 438319914
+      8bit-armor-pack_25: -2082123947
+      8bit-armor-pack_26: -1625594472
+      8bit-armor-pack_27: -1918264852
+      8bit-armor-pack_28: 896957790
+      8bit-armor-pack_29: -160672149
+      8bit-armor-pack_3: -150973953
+      8bit-armor-pack_30: -1588840268
+      8bit-armor-pack_31: 2117621414
+      8bit-armor-pack_32: -1880476419
+      8bit-armor-pack_33: 1609174641
+      8bit-armor-pack_34: 822711073
+      8bit-armor-pack_35: 1535714985
+      8bit-armor-pack_36: -1022170013
+      8bit-armor-pack_37: -1022182834
+      8bit-armor-pack_38: -1317028756
+      8bit-armor-pack_39: 1555377551
+      8bit-armor-pack_4: 1197134221
+      8bit-armor-pack_40: -576479362
+      8bit-armor-pack_41: 1827011952
+      8bit-armor-pack_42: -97040899
+      8bit-armor-pack_43: -1431242361
+      8bit-armor-pack_44: -873287888
+      8bit-armor-pack_45: -41760974
+      8bit-armor-pack_46: 2041606123
+      8bit-armor-pack_47: 1286324385
+      8bit-armor-pack_48: 253072850
+      8bit-armor-pack_49: -642147309
+      8bit-armor-pack_5: 1629311472
+      8bit-armor-pack_50: -1913932436
+      8bit-armor-pack_51: 29853781
+      8bit-armor-pack_52: -2090607640
+      8bit-armor-pack_53: -1449361857
+      8bit-armor-pack_54: -2033481435
+      8bit-armor-pack_55: 1309501222
+      8bit-armor-pack_56: -1490752258
+      8bit-armor-pack_57: -1465658797
+      8bit-armor-pack_58: -1543254657
+      8bit-armor-pack_59: 1932962692
+      8bit-armor-pack_6: 1500817356
+      8bit-armor-pack_60: 161490656
+      8bit-armor-pack_61: -1736177015
+      8bit-armor-pack_62: 1163722766
+      8bit-armor-pack_63: 1360575652
+      8bit-armor-pack_64: -864220272
+      8bit-armor-pack_65: -274828561
+      8bit-armor-pack_66: -1197436044
+      8bit-armor-pack_67: 210177564
+      8bit-armor-pack_68: -1952639153
+      8bit-armor-pack_69: 1663620432
+      8bit-armor-pack_7: 1002102789
+      8bit-armor-pack_70: 295766708
+      8bit-armor-pack_71: -569161481
+      8bit-armor-pack_8: 791387792
+      8bit-armor-pack_9: -1615671174
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

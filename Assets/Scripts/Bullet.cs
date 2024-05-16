@@ -10,7 +10,7 @@ public class Bullet : MonoBehaviour
 
     public float speed = 1.0f;
     private Vector2 direction;
-    private float lifeTime = 2.0f;
+
 
 
     // Start is called before the first frame update
@@ -21,8 +21,7 @@ public class Bullet : MonoBehaviour
 
     void Update()
     {
-        lifeTime -= Time.deltaTime;
-        if (lifeTime <= 0) Destroy(gameObject);
+        
     }
   
     void FixedUpdate()
@@ -34,5 +33,11 @@ public class Bullet : MonoBehaviour
     public void SetDirection(Vector2 value)
     {
         direction = value;
+    }
+
+    // Destroy que se llama en el último sprite de bullet animation
+    public void DestroyBullet()
+    {
+        Destroy(gameObject);
     }
 }
