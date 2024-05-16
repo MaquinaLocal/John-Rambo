@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 99208c0d7b242444d9bf09f7c39c7236
+guid: 0a394cda2dce49f459fa7118542a776c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 25
+  spritePixelsToUnits: 60
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -94,19 +94,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Server
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -123,148 +110,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: enemy_weapon_bullet_0
+      name: jetpack-sprites03_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1
-        width: 8
-        height: 7
+        x: 6
+        y: 22
+        width: 25
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 608a76b742830c64e844123a90b6d88a
-      internalID: 1292676597
+      spriteID: 467b2f81a0ffe0d46888c1f06cab27a4
+      internalID: -278362682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy_weapon_bullet_1
+      name: jetpack-sprites03_1
       rect:
         serializedVersion: 2
-        x: 8
-        y: 1
-        width: 8
-        height: 7
+        x: 34
+        y: 22
+        width: 25
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1eebf3fef4e9762489e6f48e32aeb721
-      internalID: -1515611623
+      spriteID: 0dff39434b940ad41b85295b851eeeb7
+      internalID: -287876359
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy_weapon_bullet_2
+      name: jetpack-sprites03_2
       rect:
         serializedVersion: 2
-        x: 16
-        y: 1
-        width: 8
-        height: 7
+        x: 62
+        y: 22
+        width: 25
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bc3fb4ace619254cb70ec8935a07b03
-      internalID: -1010643694
+      spriteID: ccd28bb2661d8b64a888a7fc20329517
+      internalID: 651487258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy_weapon_bullet_3
+      name: jetpack-sprites03_3
       rect:
         serializedVersion: 2
-        x: 24
-        y: 1
-        width: 8
-        height: 7
+        x: 90
+        y: 22
+        width: 25
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37a41b15daba1684ab9231eed93e17fd
-      internalID: -989717259
+      spriteID: 8adc9479ae9e042458c11d2c265fc43e
+      internalID: 2129058449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy_weapon_bullet_4
+      name: jetpack-sprites03_5
       rect:
         serializedVersion: 2
-        x: 32
-        y: 1
-        width: 8
-        height: 7
+        x: 118
+        y: 22
+        width: 25
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a35138bc029fd3943ba989c04dda7d95
-      internalID: -1749763823
+      spriteID: 29882a7e3027e8c44880f74a2e0af3b4
+      internalID: 1959356287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy_weapon_bullet_5
+      name: jetpack-sprites03_6
       rect:
         serializedVersion: 2
-        x: 40
-        y: 1
-        width: 8
-        height: 7
+        x: 146
+        y: 22
+        width: 25
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47acea174325b8c4f9e7f9d9a2c5f1ee
-      internalID: -1560436119
+      spriteID: 586cc57b33806594a9cbfdeaa53dc767
+      internalID: 1742698314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy_weapon_bullet_6
+      name: jetpack-sprites03_7
       rect:
         serializedVersion: 2
-        x: 48
-        y: 1
-        width: 8
-        height: 7
+        x: 174
+        y: 22
+        width: 25
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8fbf792e23567564b8474d6dc8e0da6b
-      internalID: -1084799463
+      spriteID: bf409e998773e884eb9dfdbeb894433a
+      internalID: 1056149866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jetpack-sprites03_8
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 22
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fefaa92a4ced974aa676c349221276b
+      internalID: -480767854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jetpack-sprites03_9
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 22
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02440d4c1c766f34fa13f5c9a463aace
+      internalID: 920833936
       vertices: []
       indices: 
       edges: []
@@ -280,13 +309,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      enemy_weapon_bullet_0: 1292676597
-      enemy_weapon_bullet_1: -1515611623
-      enemy_weapon_bullet_2: -1010643694
-      enemy_weapon_bullet_3: -989717259
-      enemy_weapon_bullet_4: -1749763823
-      enemy_weapon_bullet_5: -1560436119
-      enemy_weapon_bullet_6: -1084799463
+      jetpack-sprites03_0: -278362682
+      jetpack-sprites03_1: -287876359
+      jetpack-sprites03_10: 1275806843
+      jetpack-sprites03_2: 651487258
+      jetpack-sprites03_3: 2129058449
+      jetpack-sprites03_4: 367765697
+      jetpack-sprites03_5: 1959356287
+      jetpack-sprites03_6: 1742698314
+      jetpack-sprites03_7: 1056149866
+      jetpack-sprites03_8: -480767854
+      jetpack-sprites03_9: 920833936
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
