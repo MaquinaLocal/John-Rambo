@@ -16,6 +16,7 @@ public class RamboMovement : MonoBehaviour
     public float JumpForce = 1.0f;
     public float maxFuel = 10.0f;
     private float currentFuel;
+    private int Health = 5;
 
 
     private Rigidbody2D rb;
@@ -45,19 +46,20 @@ public class RamboMovement : MonoBehaviour
         // Activa animación de "correr"
         Animator.SetBool("isRunning", Horizontal != 0.0f);
 
+        // Activa animación "saltar"
+        Animator.SetBool("isJumping", !Grounded);
+
         // Rotación basada en movimiento
         if (Horizontal < 0.0f) transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
         else if (Horizontal > 0.0f) transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
 
         // Dibujo de rayo
-        /*
-        Debug.DrawRay(transform.position, Vector3.down * 0.1f, Color.red);
+        Debug.DrawRay(transform.position, Vector3.down * 0.5f, Color.red);
 
         // Casteo de rayo para salto
-        if (Physics2D.Raycast(transform.position, Vector3.down, 0.1f))
+        if (Physics2D.Raycast(transform.position, Vector3.down, 0.5f))
             Grounded = true;
         else Grounded = false;
-        */
 
         // Salto
         if (Input.GetKeyDown(KeyCode.Space) && bCanJump)
@@ -70,16 +72,6 @@ public class RamboMovement : MonoBehaviour
         {
             Shoot();
         }
-
-
-        // Combustible
-        /*
-        if (currentFuel > 0.0f && bCanJump == true) { currentFuel -= Time.deltaTime; }
-        else if (currentFuel <= maxFuel) { bCanJump = false; currentFuel += Time.deltaTime; }
-        else { bCanJump = true; }
-        */
-
-        //Debug.Log(currentFuel);
     }
 
    
@@ -100,30 +92,27 @@ public class RamboMovement : MonoBehaviour
 
     }
 
+
+    // Manejo de vida
+    public void HP_Manager(int Value)
+    {
+        Health += Value;
+        Debug.Log(Health);
+        if (Health <= 0) Destroy(gameObject);
+    }
    
     void FixedUpdate()
     {
         rb.velocity = new Vector2(Horizontal, rb.velocity.y);
         
-        Vector2 rbVelocity = rb.velocity;
-        if (Horizontal != 0.0f) rbVelocity.y = 0.0f;
-
+       
         // Jetpack
-        if (rbVelocity.y != 0.0f)
-        {
-            bIsOnAir = true;
-            jetpack.GetComponent<Jetpack>().IsOnAir(bIsOnAir);
-        }
-        else
-        {
-            bIsOnAir = false;
-            jetpack.GetComponent<Jetpack>().IsOnAir(bIsOnAir);
-        }
+        jetpack.GetComponent<Jetpack>().IsOnAir(!Grounded);
 
-            if (bIsOnAir && currentFuel > 0.0f) currentFuel -= Time.deltaTime * 2;
+        if (Grounded == false && currentFuel > 0.0f) currentFuel -= Time.deltaTime * 2;
         else if (currentFuel <= 0.0f) bCanJump = false;
         
-        if (bIsOnAir == false)
+        if (Grounded)
         {
             currentFuel += Time.deltaTime * 2;
             if (currentFuel >= maxFuel)
@@ -133,8 +122,6 @@ public class RamboMovement : MonoBehaviour
             }
         }
 
-        Debug.Log(rbVelocity.y);
-        Debug.Log(currentFuel);
+        //Debug.Log(currentFuel);
     }
-
 }

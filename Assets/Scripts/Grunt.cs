@@ -10,6 +10,7 @@ public class Grunt : MonoBehaviour
     [SerializeField] private float shootDistance = 2.0f;
     private float lastShoot;
     public float shootUpdate = 1.0f;
+    private int Health = 3;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,8 @@ public class Grunt : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (player == null) return;
+
         // Rotar al enemigo según posición de jugador
         Vector3 direction = player.transform.position - transform.position;
         if (direction.x >= 0.0f) transform.localScale = new Vector3(1.0f,1.0f, 1.0f);
@@ -45,5 +48,13 @@ public class Grunt : MonoBehaviour
 
         GameObject bullet = Instantiate(bulletObj, transform.position + direction, Quaternion.identity);
         bullet.GetComponent<Bullet>().SetDirection(direction);
+    }
+
+    // Manejo de vida
+    public void HP_Manager(int Value)
+    {
+        Health += Value;
+        Debug.Log(Health);
+        if (Health <= 0) Destroy(gameObject);
     }
 }

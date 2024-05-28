@@ -10,6 +10,7 @@ public class Bullet : MonoBehaviour
 
     public float speed = 1.0f;
     private Vector2 direction;
+    private int Damage = 1;
 
 
 
@@ -39,5 +40,17 @@ public class Bullet : MonoBehaviour
     public void DestroyBullet()
     {
         Destroy(gameObject);
+    }
+
+    // Colisión
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        RamboMovement Player = collision.GetComponent<RamboMovement>();
+        Grunt Enemy = collision.GetComponent<Grunt>();
+
+        if (Player) Player.HP_Manager(-Damage);
+        if (Enemy) Enemy.HP_Manager(-Damage);
+
+        DestroyBullet();
     }
 }
