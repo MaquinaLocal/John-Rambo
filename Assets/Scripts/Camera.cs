@@ -6,7 +6,7 @@ using UnityEngine;
 public class Camera : MonoBehaviour
 {
     public GameObject Player;
-
+    private bool camera_movement = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +26,12 @@ public class Camera : MonoBehaviour
         */
 
         // Camara que se mueve continuamente
-        transform.position = transform.position + Vector3.right * Time.deltaTime;
+        if(camera_movement == true)
+            transform.position = transform.position + Vector3.right * Time.deltaTime;
+    }
+
+    public void SetCameraMovement(bool value)
+    {
+        camera_movement = value;
     }
 }

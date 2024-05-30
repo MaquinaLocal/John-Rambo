@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Grunt : MonoBehaviour
 {
     public GameObject player;
     public GameObject bulletObj;
+    public GameObject GM_ref;
 
     [SerializeField] private float shootDistance = 2.0f;
     private float lastShoot;
@@ -54,7 +56,11 @@ public class Grunt : MonoBehaviour
     public void HP_Manager(int Value)
     {
         Health += Value;
-        Debug.Log(Health);
-        if (Health <= 0) Destroy(gameObject);
+
+        if (Health <= 0)
+        {
+            Destroy(gameObject);
+            GM_ref.GetComponent<GameManager>().CheckWinCondition();
+        }
     }
 }

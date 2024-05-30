@@ -25,6 +25,9 @@ public class RamboMovement : MonoBehaviour
     public GameObject bulletObj;
     [SerializeField] private Jetpack jetpack;
 
+    public GameObject defeatMenu;
+    public GameObject cameraRef;
+
 
     // Start is called before the first frame update
     void Start()
@@ -72,6 +75,13 @@ public class RamboMovement : MonoBehaviour
         {
             Shoot();
         }
+
+        // Destroy por caida
+        if (transform.position.y <= -5.0f)
+        {
+            Destroy(gameObject);
+            RamboLoses();
+        }
     }
 
    
@@ -97,8 +107,13 @@ public class RamboMovement : MonoBehaviour
     public void HP_Manager(int Value)
     {
         Health += Value;
-        Debug.Log(Health);
-        if (Health <= 0) Destroy(gameObject);
+    
+        if (Health <= 0)
+        {
+            Destroy(gameObject);
+            RamboLoses();
+        }
+
     }
    
     void FixedUpdate()
@@ -123,5 +138,11 @@ public class RamboMovement : MonoBehaviour
         }
 
         //Debug.Log(currentFuel);
+    }
+
+    private void RamboLoses()
+    {
+        cameraRef.GetComponent<Camera>().SetCameraMovement(false);
+        defeatMenu.SetActive(true);
     }
 }
